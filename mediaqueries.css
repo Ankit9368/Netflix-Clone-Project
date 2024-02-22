@@ -1,0 +1,199 @@
+@media screen and (max-width: 963px) {
+    .main {
+        height: 75vh;
+    }
+
+    .main .box {
+        height: 75vh;
+    }
+
+    .main-text> :first-child {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .main-text> :nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main-text> :nth-child(3) {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .main nav {
+        max-width: 95vw;
+    }
+
+    nav>span>img {
+        width: 90px;
+    }
+
+    nav span {
+        padding-top: 7px;
+    }
+
+    .text-btn input {
+        padding: 16px 150px 18px 20px;
+    }
+
+    .comp {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    .comp-left {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .comp-txt :first-child {
+        font-size: 32px;
+        font-weight: 700;
+        display: block;
+        width: 100%;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .comp-txt :nth-child(2) {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .comp-right {
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .comp-tv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comp-tv img {
+        max-width: 84%;
+    }
+
+    .comp-right video {
+        width: 61%;
+        top: 21%;
+        right: 20%;
+    }
+
+    .comp2 {
+        flex-direction: column;
+    }
+
+    .tv2 video {
+        width: 52%;
+        height: 68%;
+        left: 23%;
+        top: 1%;
+    }
+
+    .comp4 {
+        flex-direction: column;
+    }
+
+    .faq {
+        max-width: 93vw;
+    }
+
+    .faq h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .faq1 {
+        font-size: 15px;
+        padding: 16px 16px 14px;
+        max-width: 95vw;
+    }
+
+    .faq1 svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer {
+        max-width: 92vw;
+    }
+
+    .questions {
+        margin: 20px 0 25px;
+    }
+
+    .footer-box {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 677px) {
+
+    .main {
+        height: 90vh;
+    }
+    
+    .main .box {
+        height: 90vh;
+    }
+
+    .text-btn {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .text-btn input {
+        padding: 16px 20px 18px;
+        width: 80vw;
+    }
+
+    .comp-right {
+        max-width: 90%;
+    }
+
+    .comp-right img {
+        max-width: 90%;
+    }
+
+    .comp-right video {
+        width: 64%;
+        top: 22%;
+        right: 18%;
+    }
+
+    .tv2 video {
+        width: 56%;
+        height: 84%;
+        top: -5%;
+        left: 22%;
+    }
+
+    .faq h2 {
+        text-align: center;
+    }
+
+    .faq input {
+        padding: 16px 20px 18px 20px;
+        width: 75vw;
+    }
+
+    .lower-btn {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer h3 {
+        margin-bottom: 25px;
+    }
+
+}
